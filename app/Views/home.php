@@ -37,8 +37,12 @@
                     <a href="<?= base_url('login') ?>" class="btn btn-primary">Entrar</a>
 
                 </div>
+                <div class="col text-center p-5">
+                    <img src="<?= base_url('assets/img/logo.jpg') ?>" alt="Agendamento de tarefas" width="150" height="100" class="ima-fluid">
+                </div>
 
             </div>
+
         </div>
 
 
