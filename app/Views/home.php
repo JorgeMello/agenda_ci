@@ -15,7 +15,9 @@
     <nav class="container-fluid">
         <div class="row align-items-center">
             <div class="col p-3">
-                <img src="<?= base_url('assets/img/logo.jpg') ?>" alt="Agendamento de tarefas" width="30" height="24" class="d-inline-block align-text-top mx-2">
+                <a href="<?= base_url('/') ?>">
+                    <img src="<?= base_url('assets/img/logo.jpg') ?>" alt="Agendamento de tarefas" width="30" height="24" class="d-inline-block align-text-top mx-2">
+                </a>
             </div>
             <div class="col p-3 pe-5 d-flex flex-row justify-content-end">
                 <div><a class="nav-link ms-5" href="<?= base_url('/') ?>">Início</a></div>
@@ -24,7 +26,23 @@
             </div>
         </div>
     </nav>
-    <h1>Agendamentos</h1>
+    <!-- main -->
+    <section class="container-fluid bg-color-02">
+
+        <div class="row">
+            <div class="col text-center p-5">
+                <div class="mb-5"><img src="<?= base_url('assets/img/logo.jpg') ?>" alt="Agendamento de tarefas" width="150" height="100" class="ima-fluid"></div>
+                <div class="text-center">
+                    <h1>Agendamento de tarefas</h1>
+                    <a href="<?= base_url('login') ?>" class="btn btn-primary">Entrar</a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
 
     <footer>
         <div class="container-fluid mt-5">
@@ -46,11 +64,11 @@
 
                 </div>
                 <div class="row mt-4">
-                        <div class="col text-center">
-                            <p class="text-center">Desenvolvido por <a href="https://github.com/JorgeMello" target="_blank">Jorge Mello</a> &copy; <?= date('Y') ?></p>
+                    <div class="col text-center">
+                        <p class="text-center">Desenvolvido por <a href="https://github.com/JorgeMello" target="_blank">Jorge Mello</a> &copy; <?= date('Y') ?></p>
 
-                        </div>
                     </div>
+                </div>
             </div>
         </div>
     </footer>
