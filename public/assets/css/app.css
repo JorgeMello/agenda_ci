@@ -7,6 +7,14 @@
 body {
     background-color: #28251E;
     color: aliceblue; 
-
 }
 
+.nav-link {
+    color: #FFA54C;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #FFC926;
+    text-decoration: underline;
+}
